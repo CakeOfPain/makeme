@@ -1,7 +1,8 @@
 
 # MAKEME Project
 
-`makeme` is a build automation tool that uses the README file of an project.
+`makeme` is a build tool that automates the installation and setup process based on the instructions provided in the README file. It is designed to simplify the build workflow by executing commands.
+
 
 ## makeme
 
