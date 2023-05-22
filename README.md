@@ -37,7 +37,10 @@ source ~/.zshrc
 Sorry not implemented yet...
 
 #### Windows
-Sorry not implemented yet...
+
+```batch
+path|find /i "%cd%" >nul || setx path "%PATH%;%cd%"
+```
 
 ### uninstall
 
