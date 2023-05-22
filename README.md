@@ -6,13 +6,15 @@
 ## License
 `makeme` is released under the [MIT License](./LICENSE)
 
-## makeme
+## Python
 
 Required Python Dependencies:
 ```shell
 pip3 install mistletoe
 pip3 install colorama
 ```
+
+## makeme
 
 - `./makeme install` for installing the project on your computer
 - `./makeme uninstall` for uninstalling the project on your computer
