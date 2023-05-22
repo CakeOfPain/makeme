@@ -5,27 +5,56 @@
 
 ## makeme
 
-Hello World!
+- `makeme install` for installing the project on your computer
+- `makeme uninstall` for uninstalling the project on your computer
 
 ### install
 
-We install first all dependencies
+Required Python Dependencies:
 ```shell
-npm install
+pip3 install mistletoe
+pip3 install colorama
 ```
 
-### run
+- `makeme install osx` for installing on your Apple computer
+- `makeme install linux` for installing on your Linux computer
+- `makeme install windows` for installing on your Windows computer
 
-First we need to build the app.
-```shell
-npm run build:dev
+#### OSX
+
+First you have to put this into your .zshrc
+```bash
+echo 'export PATH='"$(pwd)"':$PATH' >> ~/.zshrc
+source ~/.zshrc
 ```
 
-Then we run it.
+#### Linux
+Sorry not implemented yet...
+
+#### Windows
+Sorry not implemented yet...
+
+### uninstall
+
+- `makeme uninstall osx` for uninstalling on your Apple computer
+- `makeme uninstall linux` for uninstalling on your Linux computer
+- `makeme uninstall windows` for uninstalling on your Windows computer
+
+#### OSX
+
 ```shell
-npm run watch:dev
+sed -i '' 's#export PATH='"$(pwd)"':$PATH##g' ~/.zshrc
+source ~/.zshrc
 ```
 
-## Hello World!
+#### Linux
+Sorry not implemented yet...
 
-### Hello world2
+#### Windows
+Sorry not implemented yet...
+
+### test
+
+```shell
+pwd
+```
