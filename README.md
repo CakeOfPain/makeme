@@ -3,6 +3,10 @@
 
 `makeme` is a build tool that automates the installation and setup process based on the instructions provided in the README file. It is designed to simplify the build workflow by executing commands.
 
+Use `makeme` for your project to simplify the setup process and installation. You can also add custom commands to your project, like run, test, etc.
+
+If you use `makeme` for your project the README will be actively used and therefore maintained. 
+
 ## License
 `makeme` is released under the [MIT License](./LICENSE)
 
