@@ -7,6 +7,10 @@ Use `makeme` for your project to simplify the setup process and installation. Yo
 
 If you use `makeme` for your project the README will be actively used and therefore maintained. 
 
+## Continues Integration
+
+Use `makeme` for your team and include the commands in your testing and build process.
+
 ## License
 `makeme` is released under the [MIT License](./LICENSE)
 
