@@ -11,6 +11,17 @@ If you use `makeme` for your project the README will be actively used and theref
 
 Use `makeme` for your team and include the commands in your testing and build process.
 
+## Usage
+
+Provide inside your projects README a section like this:
+```Markdown
+## MAKEME
+```
+and also provide a link to the MAKEME project repo.
+Then add subsections where you describe some commands.
+
+For inspiration look at the [MAKEME](#makeme) section of this README.
+
 ## License
 `makeme` is released under the [MIT License](./LICENSE)
 
@@ -32,7 +43,7 @@ python -m pip install mistletoe
 python -m pip install colorama
 ```
 
-## makeme
+## MAKEME
 
 - `./makeme install` for installing the project on your computer
 - `./makeme uninstall` for uninstalling the project on your computer
