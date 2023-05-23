@@ -4,7 +4,7 @@
 
 from mistletoe import Document
 from mistletoe.block_token import Heading, CodeFence, Paragraph, List
-from mistletoe.span_token import RawText, InlineCode
+from mistletoe.span_token import RawText, InlineCode, Link
 from colorama import Fore
 import sys
 import os
@@ -53,6 +53,11 @@ class MakeMe(object):
             elif isinstance(element, InlineCode):
                 print(Fore.GREEN ,end="")
                 print(element.children[0].content, end="")
+                print(Fore.RESET, end="")
+            elif isinstance(element, Link):
+                print(Fore.YELLOW, end="")
+                print(element.children[0].content, end="")
+                print(" (" + element.target + ")", end="")
                 print(Fore.RESET, end="")
             else:
                 print(type(element), end="")
