@@ -8,10 +8,20 @@
 
 ## Python
 
+- Download Python: [Python](https://www.python.org/downloads/)
+
+### Python3
 Required Python Dependencies:
 ```shell
 pip3 install mistletoe
 pip3 install colorama
+```
+
+### Python
+Required Python Dependencies:
+```shell
+python -m pip install mistletoe
+python -m pip install colorama
 ```
 
 ## makeme
