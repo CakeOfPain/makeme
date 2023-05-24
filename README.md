@@ -22,6 +22,14 @@ Then add subsections where you describe some commands.
 
 For inspiration look at the [MAKEME](#makeme) section of this README.
 
+
+## Future Goals
+
+⭐️ Please feel free to open issues so this list can grow ⭐️
+
+- Templates
+- Script-Generation
+
 ## License
 `makeme` is released under the [MIT License](./LICENSE)
 
