@@ -95,4 +95,4 @@ class MakeMe(object):
 
 if __name__ == '__main__':
     makeme = MakeMe()
-    makeme.run(["README.md", "README"])
+    makeme.run(["README.md", "README", "MAKEME", "MAKEME.md"])
